@@ -62,7 +62,7 @@ Email: Gushproject@gmail.com
 Una sencilla aplicación CRUD (Create, Read, Update, Delete) diseñada para demostrar mis conocimientos básicos en desarrollo web con el tema principal de realizar un intento de app que pueda guardar información de manera local en el navegador.
 
 
-## **[!Mira la Demo en Vivo]**([https://tu-sitio-desplegado.netlify.app/](https://crudtech.netlify.app/))
+## **[!Mira la Demo en Vivo](https://crudtech.netlify.app/)** 
 
 
 ## **Tecnologías Utilizadas**

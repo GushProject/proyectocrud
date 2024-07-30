@@ -5,8 +5,9 @@
 
 A simple CRUD (Create, Read, Update, Delete) application designed to showcase my basic web development skills, with a primary focus on implementing a local storage feature within the browser.
 
-![image](https://github.com/user-attachments/assets/4768893b-d7a6-4c5c-94c3-63e71a632142)
-![image](https://github.com/user-attachments/assets/ebec0078-7941-4356-9f39-3846f76cb8b6)
+
+## **[See the Live Demo]**([https://tu-sitio-desplegado.netlify.app/](https://crudtech.netlify.app/))
+
 
 ## **Technologies Used**
 * HTML5
@@ -60,8 +61,8 @@ Email: Gushproject@gmail.com
 
 Una sencilla aplicación CRUD (Create, Read, Update, Delete) diseñada para demostrar mis conocimientos básicos en desarrollo web con el tema principal de realizar un intento de app que pueda guardar información de manera local en el navegador.
 
-![image](https://github.com/user-attachments/assets/4768893b-d7a6-4c5c-94c3-63e71a632142)
-![image](https://github.com/user-attachments/assets/ebec0078-7941-4356-9f39-3846f76cb8b6)
+
+## **[Mira la Demo en Vivo]**([https://tu-sitio-desplegado.netlify.app/](https://crudtech.netlify.app/))
 
 
 ## **Tecnologías Utilizadas**

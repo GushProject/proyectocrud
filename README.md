@@ -6,7 +6,7 @@
 A simple CRUD (Create, Read, Update, Delete) application designed to showcase my basic web development skills, with a primary focus on implementing a local storage feature within the browser.
 
 
-[See the Live Demo]([https://tu-sitio-desplegado.netlify.app/](https://crudtech.netlify.app/))
+[See the Live Demo] ([https://tu-sitio-desplegado.netlify.app/](https://crudtech.netlify.app/)) 
 
 
 ## **Technologies Used**

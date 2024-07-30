@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom right, #f0f2f0, #0081a7);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    background-color: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 30px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+#form-container input,
+#form-container select {
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+}
+
+#filtros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#filtros button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filtros button:hover {
+    background-color: #20639b;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+li:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+li button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li button:hover {
+    background-color: #943126;
+}
+
+
+li[data-prioridad="Alta"] {
+    background: linear-gradient(to right, #e74c3c, #c0392b);
+    color: white;
+}
+
+li[data-prioridad="Media"] {
+    background: linear-gradient(to right, #f39c12, #d35400);
+    color: white;
+}
+
+li[data-prioridad="Baja"] {
+    background: linear-gradient(to right, #2ecc71, #27ae60);
+    color: white;
+}
+
+
+li i {
+    margin-right: 10px;
+}
+
+
+body.dark-mode {
+    background: linear-gradient(to bottom right, #222, #444);
+    color: #eee;
+}
+
+body.dark-mode h1 {
+    background-color: rgba(34, 49, 63, 0.8);
+}
+
+body.dark-mode #form-container {
+    background-color: rgba(52, 73, 94, 0.9);
+}
+
+body.dark-mode li {
+    background-color: rgba(52, 73, 94, 0.9);
+    color: #eee;
+}
+
+body.dark-mode li[data-prioridad="Alta"] {
+    background: linear-gradient(to right, #c0392b, #943126);
+}
+
+body.dark-mode li[data-prioridad="Media"] {
+    background: linear-gradient(to right, #d35400, #ba4a00);
+}
+
+body.dark-mode li[data-prioridad="Baja"] {
+    background: linear-gradient(to right, #27ae60, #1e824c);
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+li.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Lista de Deseos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CRUD.css">
+</head>
+<body>
+    <button id="modoBtn">Modo Oscuro</button>
+    <h1>Mi Lista de Deseos</h1>
+
+    <div id="form-container">
+        <input type="text" id="deseo" placeholder="Nuevo Deseo">
+        <select id="prioridad">
+            <option value="Alta">Alta</option>
+            <option value="Media">Media</option>
+            <option value="Baja">Baja</option>
+        </select>
+        <select id="categoria">
+            <option value="Viajes">Viajes</option>
+            <option value="Tecnologia">Tecnología</option>
+            <option value="Experiencias">Experiencias</option>
+            <option value="Otros">Otros</option>
+        </select>
+        <button id="agregarBtn">Agregar</button>
+    </div>
+
+    <div id="filtros">
+        <button onclick="filtrarPorPrioridad('Alta')">Alta</button>
+        <button onclick="filtrarPorPrioridad('Media')">Media</button>
+        <button onclick="filtrarPorPrioridad('Baja')">Baja</button>
+        <button onclick="filtrarPorPrioridad('')">Todas</button>
+
+        <button onclick="filtrarPorCategoria('Viajes')">Viajes</button>
+        <button onclick="filtrarPorCategoria('Tecnologia')">Tecnología</button>
+        <button onclick="filtrarPorCategoria('Experiencias')">Experiencias</button>
+        <button onclick="filtrarPorCategoria('Otros')">Otros</button>
+        <button onclick="filtrarPorCategoria('')">Todas</button>
+    </div>
+
+    <ul id="listaDeseos"></ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="CRUD.js"></script>
+</body>
+</html>
